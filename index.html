@@ -1,0 +1,1010 @@
+              <!DOCTYPE html>
+              <html lang="zh-cn">
+
+              <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+                <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+                <link rel="icon" type="image/x-icon" href="images/icon1.png">
+                <title>Blue|药研导航</title>
+                <meta name="description" content="Blue的自留地">
+                <meta name="keywords" content="Blue">
+                <link rel="apple-touch-icon-precomposed" href="images/avatar.bab2b7d4.jpeg">
+                <link rel="stylesheet" type="text/css" href="css/h.9c69ed6c.css">
+                <link rel="stylesheet" type="text/css" href="css/nekotora.99cf6f8c.css">
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137340638-1"></script>
+                <script>
+                  function a() {
+                    dataLayer.push(arguments)
+                  }
+                  window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");
+                </script>
+
+              </head>
+
+              <body>
+              <script>
+                      (function () {
+                          var a_idx = 0;
+                          window.onclick = function (event) {
+                          var a = new Array("❤富强❤", "❤民主❤", "❤文明❤", "❤和谐❤", "❤自由❤", "❤平等❤", "❤公正❤", "❤法治❤", "❤爱国❤",
+                                  "❤敬业❤", "❤诚信❤", "❤友善❤");
+
+                              var heart = document.createElement("b"); //创建b元素
+                              heart.onselectstart = new Function('event.returnValue=false'); //防止拖动
+
+                              document.body.appendChild(heart).innerHTML = a[a_idx]; //将b元素添加到页面上
+                              a_idx = (a_idx + 1) % a.length;
+                              heart.style.cssText = "position: fixed;left:-100%;"; //给p元素设置样式
+
+                              var f = 16, // 字体大小
+                                  x = event.clientX - f / 2, // 横坐标
+                                  y = event.clientY - f, // 纵坐标
+                                  c = randomColor(), // 随机颜色
+                                  a = 1, // 透明度
+                                  s = 1.2; // 放大缩小
+
+                              var timer = setInterval(function () { //添加定时器
+                                  if (a <= 0) {
+                                      document.body.removeChild(heart);
+                                      clearInterval(timer);
+                                  } else {
+                                      heart.style.cssText = "font-size:16px;cursor: default;position: fixed;color:" +
+                                          c + ";left:" + x + "px;top:" + y + "px;opacity:" + a + ";transform:scale(" +
+                                          s + ");";
+
+                                      y--;
+                                      a -= 0.016;
+                                      s += 0.002;
+                                  }
+                              }, 15)
+
+                          }
+                          // 随机颜色
+                          function randomColor() {
+
+                              return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math
+                              .random() * 255)) + ")";
+
+                          }
+                      }());
+                  </script>
+
+
+
+                <!--<p>此处为导航，暂且不且，用的时候去除注释即可</p>
+                <nav>
+                  <a href="https://945km.github.io" target="_blank" class="active">首页</a> <a class="clip"></a>
+                  <a href="https://www.sunguoqi.com/categories/" target="_blank">归档</a>
+                  <a class="clip"></a> <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI4MDg2ODkwOQ==&scene=110#wechat_redirect" target="_blank">文章</a>
+                  <a class="clip"></a> <a href="https://www.sunguoqi.com/comments/" target="_blank">留言板</a>
+                </nav>
+              -->
+
+
+                <body onContextMenu="alert('禁止查看源代码，您的行为已记录。'); return false"
+                  NOOP="if (window.event != null && window.event.button == 2) alert ('Thanks...');">
+                  <div class="background">
+                    <canvas id="startrack"></canvas>
+                    <div class="cover"></div>
+                  </div>
+
+                  <div class="main">
+                    <div class="ch intro">
+                      <div class="container">
+                        <div class="hello">
+                          <h1 id="slogan">思考中...</h1>
+                          <!--随机文字信息在\js\page.3a0791a3.js中修改-->
+                          <h2>
+                            <div class="circle"> <span></span> <span></span>
+                              <span></span>
+                            </div>Blue
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="gate ch">
+                      <div class="container links">
+
+                          <h2 class="chtitle"> <span>学术搜索</span></h2>
+                          <div class="clear col-3">
+
+
+ <a href="https://xueshu.baidu.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/78e55-xueshu.baidu.com.png">                        </div>                        <div class="inner">  <h5> 百度学术</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cnki.net "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnki.png">                        </div>                        <div class="inner">  <h5> 中国知网</h5>                        </div>                    </div>                </a>
+ <a href="https://sc.panda321.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/熊猫学术.jpg">                        </div>                        <div class="inner">  <h5> 熊猫学术</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ablesci.com/so  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/科研通.jpg">                        </div>                        <div class="inner">  <h5> 科研通(检索)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.wanfangdata.com.cn/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/wanfangdata.jpg">                        </div>                        <div class="inner">  <h5> 万方数据</h5>                        </div>                    </div>                </a>
+ <a href="http://scholar.cnki.net  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/CNKI学术搜索.jpg">                        </div>                        <div class="inner">  <h5> CNKI学术搜索</h5>                        </div>                    </div>                </a>
+ <a href="https://cn.bing.com/academic  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/microsoft-academic.jpg">                        </div>                        <div class="inner">  <h5> 微软学术检索</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cqvip.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cqvip.jpg">                        </div>                        <div class="inner">  <h5> 维普论文</h5>                        </div>                    </div>                </a>
+ <a href="https://www.biomedcentral.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/biomedcentra.jpg">                        </div>                        <div class="inner">  <h5> BMC*生物医学</h5>                        </div>                    </div>                </a>
+ <a href="https://www.aminer.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/aminer.png">                        </div>                        <div class="inner">  <h5> AMiner知识图谱</h5>                        </div>                    </div>                </a>
+ <a href="https://jglobal.jst.go.jp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-16_19-59-26.jpg">                        </div>                        <div class="inner">  <h5> J-GLOBAL*综合</h5>                        </div>                    </div>                </a>
+ <a href="https://www.connectedpapers.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/9e8ee-www.connectedpapers.com.png">                        </div>                        <div class="inner">  <h5> Connected Papers</h5>                        </div>                    </div>                </a>
+ <a href="https://image.cnki.net  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnki.png">                        </div>                        <div class="inner">  <h5> CNKI学术图片</h5>                        </div>                    </div>                </a>
+ <a href="https://oatd.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/36bf6-oatd.org.png">                        </div>                        <div class="inner">  <h5> OATD*论文搜索</h5>                        </div>                    </div>                </a>
+ <a href="https://ngdc.cncb.ac.cn/openlb/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/e309f-ngdc.cncb.ac.cn.png">                        </div>                        <div class="inner">  <h5> OpenLB</h5>                        </div>                    </div>                </a>
+  
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    <h2 class="chtitle"> <span>SCI-HUB文献</span></h2>
+            <div class="clear col-3">
+            
+ 
+ 
+ <a href="http://sci-hub.shop  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hub1.jpg">                        </div>                        <div class="inner">  <h5> Sci-hub*SH</h5>                        </div>                    </div>                </a>
+ <a href="https://sci-hub.org.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hubcn.jpg">                        </div>                        <div class="inner">  <h5> Sci-hub*CN版</h5>                        </div>                    </div>                </a>
+ <a href="http://sci-hub.ee  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hub.png">                        </div>                        <div class="inner">  <h5> Sci-hub*EE</h5>                        </div>                    </div>                </a>
+ <a href="http://sci-hub.st  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hub.png">                        </div>                        <div class="inner">  <h5> SciHub*ST</h5>                        </div>                    </div>                </a>
+ <a href="https://lovescihub.wordpress.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hub.png">                        </div>                        <div class="inner">  <h5> Love-Scihub</h5>                        </div>                    </div>                </a>
+ <a href="http://www.588230.com/#scihub  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/nangua.jpg">                        </div>                        <div class="inner">  <h5> Sci-hub*可用地址</h5>                        </div>                    </div>                </a>
+ <a href="https://sci-hub.se  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sci-hub2.jpg">                        </div>                        <div class="inner">  <h5> Sci-hub*SE</h5>                        </div>                    </div>                </a>
+ <a href="https://tool.yovisun.com/scihub  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/80xueshudown.png">                        </div>                        <div class="inner">  <h5> Scihub网址</h5>                        </div>                    </div>                </a>
+ 
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+      
+     <h2 class="chtitle"> <span>掌上药研</span></h2>
+            <div class="clear col-3">
+            
+ 
+ <a href="https://zhiku.bopuyun.com/yaodian  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国药典2020年版在线查询.jpg">                        </div>                        <div class="inner">  <h5> 中国药典2020(博普)</h5>                        </div>                    </div>                </a>
+ <a href="https://mdata.pharmacodia.com/islgd#/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacodia.jpg">                        </div>                        <div class="inner">  <h5> 仿制药</h5>                        </div>                    </div>                </a>
+ <a href="https://mdata.pharmacodia.com/chemistry/#/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacodia.jpg">                        </div>                        <div class="inner">  <h5> 创新药</h5>                        </div>                    </div>                </a>
+ <a href="https://fastgpt.run/chat/share?shareId=647ac4f09d1b63c2dd11e3e9  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cropped-Drugx-new-80-dsrk.png">                        </div>                        <div class="inner">  <h5> 药研版ChatGPT</h5>                        </div>                    </div>                </a>
+   
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    
+     <h2 class="chtitle"> <span>文献下载</span></h2>
+            <div class="clear col-3">
+            
+ 
+ 
+ <a href="https://zh.booksc.xyz "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-1.jpg">                        </div>                        <div class="inner">  <h5> ZLibrary地址*2023</h5>                        </div>                    </div>                </a>
+ <a href="https://libgen.gs  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/libgen.png">                        </div>                        <div class="inner">  <h5> LibGen</h5>                        </div>                    </div>                </a>
+ <a href="https://www.xiantaozi.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/83ded-www.xiantao.love.png">                        </div>                        <div class="inner">  <h5> 仙桃学术</h5>                        </div>                    </div>                </a>
+ <a href="https://www.scidown.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Scidown.png">                        </div>                        <div class="inner">  <h5> SciDown文献</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ixueshu.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ixueshu.png">                        </div>                        <div class="inner">  <h5> 爱学术</h5>                        </div>                    </div>                </a>
+ <a href="https://doi.qqsci.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/QIE.jpg">                        </div>                        <div class="inner">  <h5> 企鹅*文献下载</h5>                        </div>                    </div>                </a>
+ <a href="http://www.80lib.com/?ref=179983  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/80tushuguan.png">                        </div>                        <div class="inner">  <h5> 80图书馆</h5>                        </div>                    </div>                </a>
+ <a href="http://www.ucdrs.superlib.net  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/superlib.jpg">                        </div>                        <div class="inner">  <h5> 全国图书馆联盟</h5>                        </div>                    </div>                </a>
+ <a href="http://m.365xue.vip "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/什么图书馆.png">                        </div>                        <div class="inner">  <h5> 神马图书馆*账号</h5>                        </div>                    </div>                </a>
+ <a href="https://libgen.st  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/libgen.png">                        </div>                        <div class="inner">  <h5> LibGen*ST</h5>                        </div>                    </div>                </a>
+ <a href="https://www.medreading.cn "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/d168d-www.medreading.cn.png">                        </div>                        <div class="inner">  <h5> MedReading文献检索下载</h5>                        </div>                    </div>                </a>
+ <a href="https://31sanyi.neocities.org/user.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/e34d4-31sanyi.neocities.org.png">                        </div>                        <div class="inner">  <h5> 晨曦图书馆</h5>                        </div>                    </div>                </a>
+ <a href="http://www.paper.edu.cn/search/index?searchContent=  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国科技论文在线.jpg">                        </div>                        <div class="inner">  <h5> 中国论文在线</h5>                        </div>                    </div>                </a>
+ <a href="https://www.researchgate.net/topics  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/researchgate.jpg">                        </div>                        <div class="inner">  <h5> Researchgate</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mdpi.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/MDPI.jpg">                        </div>                        <div class="inner">  <h5> MDPI*文献</h5>                        </div>                    </div>                </a>
+ <a href="https://doaj.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/doaj.png">                        </div>                        <div class="inner">  <h5> Doaj免费文献</h5>                        </div>                    </div>                </a>
+ <a href="https://sci.panda321.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/熊猫学术.jpg">                        </div>                        <div class="inner">  <h5> 熊猫文献下载</h5>                        </div>                    </div>                </a>
+ <a href="http://lawdata.com.tw/tw  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-18_18-31-58.jpg">                        </div>                        <div class="inner">  <h5> 月旦知识库</h5>                        </div>                    </div>                </a>
+ <a href="https://core.ac.uk  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/core.png">                        </div>                        <div class="inner">  <h5> Core文献</h5>                        </div>                    </div>                </a>
+ <a href="https://academicjournals.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-4.png">                        </div>                        <div class="inner">  <h5> Academic Journals</h5>                        </div>                    </div>                </a>
+ <a href="https://www.annualreviews.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/annualreviews.png">                        </div>                        <div class="inner">  <h5> Annual Reviews期刊</h5>                        </div>                    </div>                </a>
+ <a href="https://www.biorxiv.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-4.jpg">                        </div>                        <div class="inner">  <h5> Biorxiv</h5>                        </div>                    </div>                </a>
+ <a href="http://www.ncpssd.org/index.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/国家哲学社会科学文献中心.jpg">                        </div>                        <div class="inner">  <h5> 哲学社会文献</h5>                        </div>                    </div>                </a>
+ <a href="https://www.oalib.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/oalib.jpg">                        </div>                        <div class="inner">  <h5> Oalib文献</h5>                        </div>                    </div>                </a>
+ <a href="https://www.semanticscholar.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/semanticscholar.png">                        </div>                        <div class="inner">  <h5> Semantic scholar</h5>                        </div>                    </div>                </a>
+ <a href="https://www.jstor.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/semanticscholar.png">                        </div>                        <div class="inner">  <h5> Jstor文献</h5>                        </div>                    </div>                </a>
+ <a href="https://arxiv.org "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/arxiv.org.png">                        </div>                        <div class="inner">  <h5> arXiv|美国科学论文</h5>                        </div>                    </div>                </a>
+         
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+     
+            <h2 class="chtitle"> <span>药研数据库</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.wuxuwang.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/wuxuwang.jpg">                        </div>                        <div class="inner">  <h5> 戊戌数据</h5>                        </div>                    </div>                </a>
+ <a href="https://db.yaozh.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/yaozh.jpg">                        </div>                        <div class="inner">  <h5> 药智数据</h5>                        </div>                    </div>                </a>
+ <a href="https://go.drugbank.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugbank.jpg">                        </div>                        <div class="inner">  <h5> DrugBank</h5>                        </div>                    </div>                </a>
+ <a href="https://data.pharmacodia.com/v3  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacodia.jpg">                        </div>                        <div class="inner">  <h5> 药渡数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharnexcloud.com/database  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharnexcloud.png">                        </div>                        <div class="inner">  <h5> 药融云</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugfuture.png">                        </div>                        <div class="inner">  <h5> Drugfuture</h5>                        </div>                    </div>                </a>
+ <a href="https://db.dxy.cn/v5/info/free  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/insight.jpg">                        </div>                        <div class="inner">  <h5> Insight数据库</h5>                        </div>                    </div>                </a>
+ <a href="http://www.pharmcube.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmcube.jpg">                        </div>                        <div class="inner">  <h5> 医药魔方</h5>                        </div>                    </div>                </a>
+ <a href="https://synapse.zhihuiya.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/76fa5-www.pharmsnap.cn.png">                        </div>                        <div class="inner">  <h5> 智慧芽PharmSnap</h5>                        </div>                    </div>                </a>
+ <a href="https://db.menet.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/menet.jpg">                        </div>                        <div class="inner">  <h5> 米内数据</h5>                        </div>                    </div>                </a>
+ <a href="https://pdb.pharmadl.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/PDB.png">                        </div>                        <div class="inner">  <h5> PDB数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://www.xanda.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/xanda.jpg">                        </div>                        <div class="inner">  <h5> 咸达?数据</h5>                        </div>                    </div>                </a>
+ <a href="https://adisinsight.springer.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/adisinsight.png">                        </div>                        <div class="inner">  <h5> AdisInsight药研数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cortellis.com/drugdiscovery  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Integrity.jpg">                        </div>                        <div class="inner">  <h5> CDDI库(原Integrity)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bindingdb.org/bind/index.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Glow-mkg1a_small.png">                        </div>                        <div class="inner">  <h5> Binding靶点蛋白</h5>                        </div>                    </div>                </a>
+ <a href="http://www.chemspider.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/chemspider.png">                        </div>                        <div class="inner">  <h5> Chemspider</h5>                        </div>                    </div>                </a>
+ <a href="http://ghdx.healthdata.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/GHD.jpg">                        </div>                        <div class="inner">  <h5> GBD*流行病数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gbihealth.com/zh  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/gbi-hexa.png">                        </div>                        <div class="inner">  <h5> GBI数据库</h5>                        </div>                    </div>                </a>
+ <a href="http://cpm.pharmadl.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/CPM.png">                        </div>                        <div class="inner">  <h5> CPM数据库</h5>                        </div>                    </div>                </a>
+ <a href="http://ctdbase.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-5.png">                        </div>                        <div class="inner">  <h5> CTD毒理基因组学</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmacompass.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacompass.jpg">                        </div>                        <div class="inner">  <h5> PharmaCompass</h5>                        </div>                    </div>                </a>
+ <a href="https://sigma.larvol.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-09-04_14-54-08.png">                        </div>                        <div class="inner">  <h5> Larvol Sigma药物管线</h5>                        </div>                    </div>                </a>
+ <a href="http://db.drugsea.cn/monitorAndTracking  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugsea.png">                        </div>                        <div class="inner">  <h5> 咸达?药海</h5>                        </div>                    </div>                </a>
+ <a href="https://vizhub.healthdata.org/gbd-compare  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/GHD.jpg">                        </div>                        <div class="inner">  <h5> GBD*流行病图表</h5>                        </div>                    </div>                </a>
+ <a href="https://hmdb.ca/metabolites  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/hmdb.ca.png">                        </div>                        <div class="inner">  <h5> 人类代谢组数据库(HMDB)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.kegg.jp/kegg/drug "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/kegg.jpg">                        </div>                        <div class="inner">  <h5> Kegg数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://www.rcsb.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-26_13-24-52.jpg">                        </div>                        <div class="inner">  <h5> PDB蛋白质结构</h5>                        </div>                    </div>                </a>
+ <a href="https://smpdb.ca/text_query  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/smpdb.ca.png">                        </div>                        <div class="inner">  <h5> SMPDB小分子通路</h5>                        </div>                    </div>                </a>
+ <a href="http://ncbiinsights.ncbi.nlm.nih.gov "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NCBI.jpg">                        </div>                        <div class="inner">  <h5> NCBI</h5>                        </div>                    </div>                </a>
+ <a href="https://pdbj.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-26_13-26-50.jpg">                        </div>                        <div class="inner">  <h5> PDBj日本蛋白质结构数据库</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>中国</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.cde.org.cn/main/xxgk/listpage/ba7aed094c29ae31467c0a35463a716e  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/inactivenmpa-1.png">                        </div>                        <div class="inner">  <h5> CDE原辅包登记</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cde.org.cn "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 药品审评中心</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/main/xxgk/listpage/9f9c74c73e0f8f56a8bfbc646055026d  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> CDE审评查询</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cde.org.cn/ichWeb/index.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ichcn.jpg">                        </div>                        <div class="inner">  <h5> ICH指导原则</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 国家药监局</h5>                        </div>                    </div>                </a>
+ <a href="https://db.ouryao.com/ich  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ichcn.jpg">                        </div>                        <div class="inner">  <h5> ICH原则*蒲标</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/hymlj/listpage/c723ac5960cee1811b7be33a2acf8224  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ypsms.jpg">                        </div>                        <div class="inner">  <h5> 药品说明书*NMPA</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/datasearch/home-index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 国产药品查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/zdyz/listpage/9cd8db3b7530c6fa0c86485e563f93c7  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zdyz.jpg">                        </div>                        <div class="inner">  <h5> CDE指导原则</h5>                        </div>                    </div>                </a>
+ <a href="http://openstd.samr.gov.cn/bzgk/gb  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/gb.png">                        </div>                        <div class="inner">  <h5> 国家标准全文公开</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/hymlj/listpage/9cd8db3b7530c6fa0c86485e563f93c7  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 上市药品目录集</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/datasearch/home-index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 进口药查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/yzxpj/listpage/baccb6ea4350170164a8141548c32f2e  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/samr1-2.jpg">                        </div>                        <div class="inner">  <h5> 一致性*过评</h5>                        </div>                    </div>                </a>
+ <a href="https://zldj.cde.org.cn/list?listType=PublicInfoList  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 中国药品专利登记</h5>                        </div>                    </div>                </a>
+ <a href="https://db.ouryao.com/fagui  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ouryao.jpg">                        </div>                        <div class="inner">  <h5> 中国药品法规*蒲标</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/ectd/index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-09-14_09-49-33.jpg">                        </div>                        <div class="inner">  <h5> eCTD专栏*CDE</h5>                        </div>                    </div>                </a>
+ <a href="https://db.ouryao.com/swzp/index.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/guonei.png">                        </div>                        <div class="inner">  <h5> 生物制品法规</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/datasearch/home-index.html#category=ylqx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 医疗器械*新NMPA</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/datasearch/home-index.html#category=yp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 药品查询*新NMPA</h5>                        </div>                    </div>                </a>
+ <a href="http://app1.nmpa.gov.cn/data_nmpa/face3/dir.html?type=yp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 药品信息查询*NMPA</h5>                        </div>                    </div>                </a>
+ <a href="http://std.samr.gov.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_14-15-22.png">                        </div>                        <div class="inner">  <h5> 国/行/地方标准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/yzxpj/listpage/be09166458fb29657b51c39ef3c2fc96  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/samr1-1.jpg">                        </div>                        <div class="inner">  <h5> 一致性新报/补充查</h5>                        </div>                    </div>                </a>
+ <a href="https://db.ouryao.com/ybb "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ouryao.jpg">                        </div>                        <div class="inner">  <h5> 药包材标准2015</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/datasearch/home-index.html#category=hzp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/NMPA.png">                        </div>                        <div class="inner">  <h5> 化妆品*新NMPA</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/main/xxgk/listpage/da6efd086c099b7fc949121166f0130c  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 突破性治疗药*CDE</h5>                        </div>                    </div>                </a>
+ <a href="http://app.nifdc.org.cn/jianybz/jybzTwoGj.do?formAction=listYbc  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/nifc.jpg">                        </div>                        <div class="inner">  <h5> 药包材标准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/main/xxgk/listpage/2f78f372d351c6851af7431c7710a731  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 优先审评公示*CDE</h5>                        </div>                    </div>                </a>
+ <a href="https://db.ouryao.com/dfbz  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ouryao.jpg">                        </div>                        <div class="inner">  <h5> 地方中药材标准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nmpa.gov.cn/zwfw/zwfwzhcx/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zwfwzhcx.png">                        </div>                        <div class="inner">  <h5> 查询*NMPA</h5>                        </div>                    </div>                </a>
+ <a href="https://bio.nifdc.org.cn/pqf/search.do?formAction=pqfGs  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 生物批签发公示*中检院</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>美国</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.fda.gov "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/FDA.png">                        </div>                        <div class="inner">  <h5> FDA官网</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Drugs@FDA.jpg">                        </div>                        <div class="inner">  <h5> Drugs@FDA批准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/ob/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/OrangeBook.png">                        </div>                        <div class="inner">  <h5> FDA美国橙皮书</h5>                        </div>                    </div>                </a>
+ <a href="https://nctr-crs.fda.gov/fdalabel/ui/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.jpg">                        </div>                        <div class="inner">  <h5> FDA说明书*FDALabel</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov/drugs/drug-master-files-dmfs/list-drug-master-files-dmfs  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-09-03_11-49-56.jpg">                        </div>                        <div class="inner">  <h5> FDA原辅包登记*DMF</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/FDA.png">                        </div>                        <div class="inner">  <h5> FDA指导文件检索</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ndc.png">                        </div>                        <div class="inner">  <h5> 药品代码 (NDC)</h5>                        </div>                    </div>                </a>
+ <a href="https://purplebooksearch.fda.gov/advanced-search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-17_12-53-53.png">                        </div>                        <div class="inner">  <h5> 紫皮书*Purple Book</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/opdlisting/oopd/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-18_23-42-38.png">                        </div>                        <div class="inner">  <h5> FDA孤儿药批准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=report.page  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Drugs@FDA.jpg">                        </div>                        <div class="inner">  <h5> FDA最新批准药物</h5>                        </div>                    </div>                </a>
+ <a href="https://www.thefdalawblog.com/orange-book-archives  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ORANGE-BOOK-ARCHIVES.jpg">                        </div>                        <div class="inner">  <h5> 橙皮书历史档案</h5>                        </div>                    </div>                </a>
+ <a href="https://apps.usp.org/app/USPNF/columnsDB.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/8213b-apps.usp.org.png">                        </div>                        <div class="inner">  <h5> USP相似色谱柱查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov/drugs/development-approval-process-drugs/new-drugs-fda-cders-new-molecular-entities-and-new-therapeutic-biological-products  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/New-Drugs-at-FDA.png">                        </div>                        <div class="inner">  <h5> FDA新药批准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cfsanappsexternal.fda.gov/scripts/fdcc/?set=GRASNotices  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zeaone2.gif">                        </div>                        <div class="inner">  <h5> GRAS通知*FDA</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov/drugs/drug-and-biologic-approval-and-ind-activity-reports/first-generic-drug-approvals  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-1.png">                        </div>                        <div class="inner">  <h5> FDA首仿批准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.regulations.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/images-3.png">                        </div>                        <div class="inner">  <h5> Regulations*美政策</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/drls/default.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/images-2.png">                        </div>                        <div class="inner">  <h5> FDA药品机构查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/compliance-actions-and-activities/warning-letters  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/63043-www.fda.gov.png">                        </div>                        <div class="inner">  <h5> FDA警告信</h5>                        </div>                    </div>                </a>
+ <a href="https://animaldrugsatfda.fda.gov/adafda/views/#/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/FDA.png">                        </div>                        <div class="inner">  <h5> FDA动物药数据</h5>                        </div>                    </div>                </a>
+ 
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>欧洲</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.ema.europa.eu/en  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ema.jpg">                        </div>                        <div class="inner">  <h5> EMA</h5>                        </div>                    </div>                </a>
+ <a href="https://extranet.edqm.eu/publications/Recherches_CEP.shtml  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/edqmkd.jpg">                        </div>                        <div class="inner">  <h5> 欧盟CEP*原料辅料</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ema.europa.eu/en/medicines/medicines-human-use-under-evaluation  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ema.jpg">                        </div>                        <div class="inner">  <h5> EMA在审药物</h5>                        </div>                    </div>                </a>
+ 
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>日本</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://mri.cts-mrp.eu/portal/home?domain=v%2F  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/mri.cts-mrp.eu.png">                        </div>                        <div class="inner">  <h5> HMA兽药数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pmda.go.jp/english "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pmda.jpg">                        </div>                        <div class="inner">  <h5> PMDA</h5>                        </div>                    </div>                </a>
+ <a href="http://www.jp-orangebook.gr.jp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/jpOrangeBook.png">                        </div>                        <div class="inner">  <h5> 日本橙皮书</h5>                        </div>                    </div>                </a>
+ <a href="https://jpdb.nihs.go.jp/jan  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/jpdrugs.png">                        </div>                        <div class="inner">  <h5> 日本通用名(日英翻译)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pmda.go.jp/PmdaSearch/iyakuSearch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pmda.jpg">                        </div>                        <div class="inner">  <h5> PMDA审评文件</h5>                        </div>                    </div>                </a>
+ <a href="http://www.nihs.go.jp/drug/ecqaged/bluebook/list.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-31_11-52-36.png">                        </div>                        <div class="inner">  <h5> 日本蓝皮书</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pmda.go.jp/review-services/drug-reviews/master-files/0008.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pmda.jpg">                        </div>                        <div class="inner">  <h5> 日本MF*原料辅料中间体</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/6d465-www.pmda.go.jp.png">                        </div>                        <div class="inner">  <h5> PMDA审查报告*英文</h5>                        </div>                    </div>                </a>
+ <a href="https://www.japic.or.jp/di/compList.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 日本药厂&amp药品列表</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bbdb.jp/generic/toppage.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-31_11-52-36-1.png">                        </div>                        <div class="inner">  <h5> 蓝皮书*查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000198369.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/辅料.png">                        </div>                        <div class="inner">  <h5> 日本辅料标准</h5>                        </div>                    </div>                </a>
+  
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>各国药监局</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.argentina.gob.ar/anmat  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/bbbce-www.argentina.gob.ar.png">                        </div>                        <div class="inner">  <h5> 阿根廷药监局g</h5>                        </div>                    </div>                </a>
+ <a href="https://farmaci.agenziafarmaco.gov.it/bancadatifarmaci/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/agenziafarmaco.png">                        </div>                        <div class="inner">  <h5> 意大利药监局</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/d44bc-www.gov.uk.png">                        </div>                        <div class="inner">  <h5> 英国药监局*MHRA</h5>                        </div>                    </div>                </a>
+ <a href="https://grls.rosminzdrav.ru/default.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/rosminzdrav.png">                        </div>                        <div class="inner">  <h5> 俄罗斯卫生部</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bundesgesundheitsministerium.de "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-21_13-40-15.png">                        </div>                        <div class="inner">  <h5> 德国卫生部g</h5>                        </div>                    </div>                </a>
+ <a href="https://cdsco.gov.in/opencms/opencms/en/Home/#  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cdscologo_lbg.png">                        </div>                        <div class="inner">  <h5> 印度药监局 (CDSCO)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.fda.gov.tw/TC/index.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-21_13-04-52.png">                        </div>                        <div class="inner">  <h5> 中国台湾食药署g</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mfds.go.kr/index.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/kore.png">                        </div>                        <div class="inner">  <h5> 韩国食药部</h5>                        </div>                    </div>                </a>
+ <a href="https://base-donnees-publique.medicaments.gouv.fr/index.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ansm.jpg">                        </div>                        <div class="inner">  <h5> 法国药品查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.titck.gov.tr  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/argentina.jpg">                        </div>                        <div class="inner">  <h5> 土耳其药监局</h5>                        </div>                    </div>                </a>
+ <a href="https://www.canada.ca/en/public-health.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/canada.jpg">                        </div>                        <div class="inner">  <h5> 加拿大卫生局</h5>                        </div>                    </div>                </a>
+ <a href="https://english.cbg-meb.nl  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/bg-meb.png">                        </div>                        <div class="inner">  <h5> 荷兰药监部门</h5>                        </div>                    </div>                </a>
+ <a href="https://info.fda.gov.tw/MLMS/HList.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/fda-tw台湾FDA.jpg">                        </div>                        <div class="inner">  <h5> 药品信息查询*中国台湾</h5>                        </div>                    </div>                </a>
+ <a href="https://www.swissmedic.ch/swissmedic/de/home.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/swissmedic.png">                        </div>                        <div class="inner">  <h5> 瑞士医药局</h5>                        </div>                    </div>                </a>
+ <a href="https://ansm.sante.fr  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ansm.jpg">                        </div>                        <div class="inner">  <h5> 法国药品安全局</h5>                        </div>                    </div>                </a>
+ <a href="https://www.hsa.gov.sg  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Health-Sciences-Authority.jpg">                        </div>                        <div class="inner">  <h5> 新加坡卫生科学局*HSA</h5>                        </div>                    </div>                </a>
+ <a href="http://agence-prd.ansm.sante.fr/php/ecodex/index.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ansm.jpg">                        </div>                        <div class="inner">  <h5> 法国药品批准</h5>                        </div>                    </div>                </a>
+ <a href="https://www.tga.gov.au  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/37e7f-www.tga.gov.au.png">                        </div>                        <div class="inner">  <h5> 澳大利亚药监局</h5>                        </div>                    </div>                </a>
+ <a href="https://www.lakemedelsverket.se/sv  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-21_14-59-10.png">                        </div>                        <div class="inner">  <h5> 瑞典药品署g</h5>                        </div>                    </div>                </a>
+ <a href="http://www.medsafe.govt.nz  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/新西兰药品和医疗器械安全局.png">                        </div>                        <div class="inner">  <h5> 新西兰药监局g</h5>                        </div>                    </div>                </a>
+ <a href="http://www.urpl.gov.pl/en  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/27e14-www.urpl.gov.pl.png">                        </div>                        <div class="inner">  <h5> 药监部门*波兰</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gov.br/anvisa/pt-br  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/巴西.png">                        </div>                        <div class="inner">  <h5> 巴西卫生监督局</h5>                        </div>                    </div>                </a>
+ <a href="https://www.tga.gov.au/ws-auspar-index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/da7f5-www.tga.gov.au.png">                        </div>                        <div class="inner">  <h5> TGA审评报告*澳大利亚</h5>                        </div>                    </div>                </a>
+ <a href="https://www.lakemedelsverket.se/sv/sok-lakemedelsfakta?activeTab=1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/381ce-www.lakemedelsverket.se.png">                        </div>                        <div class="inner">  <h5> 药品信息查询*瑞典g</h5>                        </div>                    </div>                </a>
+ <a href="https://rejestrymedyczne.ezdrowie.gov.pl/rpl/search/public  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/27e14-www.urpl.gov.pl.png">                        </div>                        <div class="inner">  <h5> 波兰药品信息</h5>                        </div>                    </div>                </a>
+ <a href="https://info.fda.gov.tw/MLMS/H0001.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/fda-tw台湾FDA.jpg">                        </div>                        <div class="inner">  <h5> 药品-器械-化妆品*台湾</h5>                        </div>                    </div>                </a>
+ <a href="https://www.sukl.eu  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sukl.eu_.jpg">                        </div>                        <div class="inner">  <h5> 捷克*药监局</h5>                        </div>                    </div>                </a>
+ <a href="https://nedrug.mfds.go.kr/searchDrug  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/kore.png">                        </div>                        <div class="inner">  <h5> 搜药信息*韩国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bda.bg/en  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-11-19_12-58-56.jpg">                        </div>                        <div class="inner">  <h5> 保加利亚药物管理局</h5>                        </div>                    </div>                </a>
+ <a href="https://nedrug.mfds.go.kr/pbp/CCBAC03  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/韩国药典.png">                        </div>                        <div class="inner">  <h5> 韩国原料药DMF</h5>                        </div>                    </div>                </a>
+
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药典官网</span></h2>
+            <div class="clear col-3">
+             
+ <a href="https://db.ouryao.com/yd2020 "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ouryao.jpg">                        </div>                        <div class="inner">  <h5> 中国2020药典(蒲标)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.antpedia.com/?action-pharm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/antpedia.jpg">                        </div>                        <div class="inner">  <h5> ChP药典(新版)</h5>                        </div>                    </div>                </a>
+ <a href="https://online.uspnf.com/uspnf  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/usp.jpg">                        </div>                        <div class="inner">  <h5> 美国药典USP-NF*在线</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000066530.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_17-12-01.png">                        </div>                        <div class="inner">  <h5> 日本药典*在线</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/standard  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugfuture.png">                        </div>                        <div class="inner">  <h5> 药品标准查询</h5>                        </div>                    </div>                </a>
+ <a href="https://nedrug.mfds.go.kr/ekphome  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/韩国药典.png">                        </div>                        <div class="inner">  <h5> 韩国药典*在线</h5>                        </div>                    </div>                </a>
+ <a href="https://pheur.edqm.eu/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ema.jpg">                        </div>                        <div class="inner">  <h5> 欧洲药典*需买账号</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmacopoeia.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacopoeia.jpg">                        </div>                        <div class="inner">  <h5> 英国药典*需账号</h5>                        </div>                    </div>                </a>
+ <a href="http://www.pmrj.jp/eng/02/jpf_contents.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/jpdb.jpg">                        </div>                        <div class="inner">  <h5> 日本药典*论坛</h5>                        </div>                    </div>                </a>
+ <a href="https://www.chp.org.cn "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/chp.png">                        </div>                        <div class="inner">  <h5> 中国药典委员会</h5>                        </div>                    </div>                </a>
+ <a href="https://online.usppf.com/usppf  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-22_20-43-56.png">                        </div>                        <div class="inner">  <h5> 药典论坛USP*需注册g</h5>                        </div>                    </div>                </a>
+ <a href="https://apps.who.int/phint/2019/index.html#d/b.1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/The-International-Pharmacopoeia.png">                        </div>                        <div class="inner">  <h5> 国际药典Ph.Int</h5>                        </div>                    </div>                </a>
+ <a href="https://pharmeuropa.edqm.eu/app/Archives/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/CoE.jpg">                        </div>                        <div class="inner">  <h5> EP档案版*需注册</h5>                        </div>                    </div>                </a>
+ <a href="https://www.argentina.gob.ar/anmat/farmacopea-argentina/libro  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/argentina.jpg">                        </div>                        <div class="inner">  <h5> 阿根廷药典*在线</h5>                        </div>                    </div>                </a>
+ <a href="http://sphu.org/viddil-dfu/informaciya-pro-dfu  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-01_22-30-56.png">                        </div>                        <div class="inner">  <h5> 乌克兰药典*在线</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/farmacopeia-brasileira  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/unnamed.jpg">                        </div>                        <div class="inner">  <h5> 巴西药典*在线</h5>                        </div>                    </div>                </a>
+ <a href="https://chp.health-china.com/#  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ChP.En.png">                        </div>                        <div class="inner">  <h5> ChP2022*英文版</h5>                        </div>                    </div>                </a>
+ 
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>专利信息</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.drugfuture.com/patent  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugfuture.png">                        </div>                        <div class="inner">  <h5> 中-美-欧专利下载</h5>                        </div>                    </div>                </a>
+ <a href="https://pss-system.cponline.cnipa.gov.cn/conventionalSearch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnipa.jpg">                        </div>                        <div class="inner">  <h5> 中国专利</h5>                        </div>                    </div>                </a>
+ <a href="https://www.google.com/?tbm=pts  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/googl谷歌.png">                        </div>                        <div class="inner">  <h5> Google专利</h5>                        </div>                    </div>                </a>
+ <a href="https://worldwide.espacenet.com/patent/cpc-browser  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/epo.jpg">                        </div>                        <div class="inner">  <h5> 欧洲专利*新</h5>                        </div>                    </div>                </a>
+ <a href="https://www.patenthub.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/专利汇.png">                        </div>                        <div class="inner">  <h5> 专利汇</h5>                        </div>                    </div>                </a>
+ <a href="https://www.freepatentsonline.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Freepatent.png">                        </div>                        <div class="inner">  <h5> FreePatent*免费</h5>                        </div>                    </div>                </a>
+ <a href="https://patft.uspto.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/uspto.jpg">                        </div>                        <div class="inner">  <h5> 美国专利</h5>                        </div>                    </div>                </a>
+ <a href="http://www.soopat.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/soopat.jpg">                        </div>                        <div class="inner">  <h5> Soopat专利搜</h5>                        </div>                    </div>                </a>
+ <a href="https://www.j-platpat.inpit.go.jp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/jpo.jpg">                        </div>                        <div class="inner">  <h5> 日本专利</h5>                        </div>                    </div>                </a>
+ <a href="https://worldwide.espacenet.com/?locale=en_EP  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/epo.jpg">                        </div>                        <div class="inner">  <h5> 欧洲专利*旧</h5>                        </div>                    </div>                </a>
+ <a href="https://gpss.tipo.gov.tw  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-16_19-12-52.jpg">                        </div>                        <div class="inner">  <h5> 全球专利-中国台湾</h5>                        </div>                    </div>                </a>
+ <a href="http://www.sipop.cn/module/gate/patentSearch/patentsSearch.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sipop.png">                        </div>                        <div class="inner">  <h5> 专利检索*产权局</h5>                        </div>                    </div>                </a>
+ <a href="https://patentscope2.wipo.int/search/zh/search.jsf  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/wipo.jpg">                        </div>                        <div class="inner">  <h5> WIPO专利*全球</h5>                        </div>                    </div>                </a>
+ <a href="https://www.zhihuiya.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/智慧芽-.png">                        </div>                        <div class="inner">  <h5> 智慧芽</h5>                        </div>                    </div>                </a>
+ <a href="http://information.casip.ac.cn/caspatent/viewmore.xhtml?ptype=8&ampq= "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国科学院.jpg">                        </div>                        <div class="inner">  <h5> 中科院专利</h5>                        </div>                    </div>                </a>
+ <a href="https://new.epo.org/en/statistics-centre  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/epo.jpg">                        </div>                        <div class="inner">  <h5> 欧洲专利可视化</h5>                        </div>                    </div>                </a>
+ <a href="https://www.patent9.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Patent9专利在线.jpg">                        </div>                        <div class="inner">  <h5> Patent9专利</h5>                        </div>                    </div>                </a>
+ <a href="https://www1.fips.ru/iiss/search.xhtml#EN  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/联邦产权局.png">                        </div>                        <div class="inner">  <h5> 俄罗斯专利检索</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ic.gc.ca/opic-cipo/cpd/eng/search/basic.html?wt_src=cipo-search-main  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/canada.jpg">                        </div>                        <div class="inner">  <h5> 加拿大*专利</h5>                        </div>                    </div>                </a>
+ <a href="https://globaldossier.uspto.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/uspto.jpg">                        </div>                        <div class="inner">  <h5> USPTO*全球专利</h5>                        </div>                    </div>                </a>
+ <a href="https://preview.lens.org/?locale=zh  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/lens.jpg">                        </div>                        <div class="inner">  <h5> PatentLens专利</h5>                        </div>                    </div>                </a>
+ <a href="http://kportal.kipris.or.kr/kportal/search/total_search.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-01_11-12-12.png">                        </div>                        <div class="inner">  <h5> 专利检索*韩国KIPRIS</h5>                        </div>                    </div>                </a>
+ <a href="https://twpat.tipo.gov.tw  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-16_19-12-52.jpg">                        </div>                        <div class="inner">  <h5> 中国台湾专利</h5>                        </div>                    </div>                </a>
+ <a href="https://nedrug.mfds.go.kr/pbp/CCBAK01  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/韩国药典.png">                        </div>                        <div class="inner">  <h5> 药物专利*韩国</h5>                        </div>                    </div>                </a>
+ <a href="https://depatisnet.dpma.de/DepatisNet/depatisnet?action=basis&ampswitchToLang=en "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/11.png">                        </div>                        <div class="inner">  <h5> 德国专利*检索</h5>                        </div>                    </div>                </a>
+ <a href="https://www.patentguru.com/cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/64a1e-www.patentguru.com.png">                        </div>                        <div class="inner">  <h5> 专利顾如</h5>                        </div>                    </div>                </a>
+ <a href="https://portal.unifiedpatents.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/K4SOI5Ds_400x400.jpg">                        </div>                        <div class="inner">  <h5> Portal*专利诉讼</h5>                        </div>                    </div>                </a>
+ <a href="http://www.patviewer.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-16_19-48-56.jpg">                        </div>                        <div class="inner">  <h5> PatViewer专利</h5>                        </div>                    </div>                </a>
+ <a href="https://ipindiaservices.gov.in/PublicSearch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-16_19-23-23.jpg">                        </div>                        <div class="inner">  <h5> 印度专利检索</h5>                        </div>                    </div>                </a>
+ <a href="https://plls.fda.gov.tw/PatentSearch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/fda-tw台湾FDA.jpg">                        </div>                        <div class="inner">  <h5> 药品专利*中国台湾</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+               
+            <h2 class="chtitle"> <span>药物合成</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.molbase.com/en/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/摩贝化学品-化工词典MOLBASE是一个免费化合物数据库，已收录了4000多万条化合物数据.png">                        </div>                        <div class="inner">  <h5> MOLBASE*摩贝化学</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/synth/synth_query.asp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugfuture.png">                        </div>                        <div class="inner">  <h5> 药物合成数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.reaxys.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Reaxys.jpg">                        </div>                        <div class="inner">  <h5> Reaxys</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/chemdata  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-22_21-21-09.png">                        </div>                        <div class="inner">  <h5> 化学物质索引</h5>                        </div>                    </div>                </a>
+ <a href="https://scifinder.cas.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Scifinder.jpg">                        </div>                        <div class="inner">  <h5> Scifinder</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/synth/synth_query.asp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-22_21-17-39.png">                        </div>                        <div class="inner">  <h5> 药物合成数据</h5>                        </div>                    </div>                </a>
+ <a href="http://cssp.chemspider.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/chemspider.png">                        </div>                        <div class="inner">  <h5> Chemspider(合成)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/Organic_Name_Reactions/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-22_21-17-39.png">                        </div>                        <div class="inner">  <h5> 有机人名反应</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ccdc.cam.ac.uk/structures  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Cambridge-Structural-Database.png">                        </div>                        <div class="inner">  <h5> CSD*晶体结构查询</h5>                        </div>                    </div>                </a>
+ <a href="http://chemistrybydesign.oia.arizona.edu/app/#  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/chemistrybydesign.png">                        </div>                        <div class="inner">  <h5> ChemByDesign</h5>                        </div>                    </div>                </a>
+ <a href="http://www.orgsyn.org/Default.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/orgsyn.jpg">                        </div>                        <div class="inner">  <h5> Organic Syntheses</h5>                        </div>                    </div>                </a>
+ <a href="https://pubs.acs.org "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ACS.png">                        </div>                        <div class="inner">  <h5> 美国化学学会</h5>                        </div>                    </div>                </a>
+ <a href="https://pharmaceutical-substances.thieme.com/ps  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmaceutical-substances.thieme.com.png">                        </div>                        <div class="inner">  <h5> Thieme药物物质数据l</h5>                        </div>                    </div>                </a>
+ <a href="https://pubs.rsc.org "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/rsc.jpg">                        </div>                        <div class="inner">  <h5> 英国化学学会</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药物制剂</span></h2>
+            <div class="clear col-3">
+            
+ <a href="http://www.druggogo.com/index.php/Database/bcs  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/1dd76-www.druggogo.com.png">                        </div>                        <div class="inner">  <h5> BCS分类查询</h5>                        </div>                    </div>                </a>
+ <a href="https://grls.rosminzdrav.ru/GRLS.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/rosminzdrav.png">                        </div>                        <div class="inner">  <h5> 制剂处方用量*俄国官方</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cde.org.cn/drugInfo.do?method=fuliaoList  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cndrugs.jpg">                        </div>                        <div class="inner">  <h5> CDE辅料数据库</h5>                        </div>                    </div>                </a>
+ <a href="http://www.anmat.gov.ar/boletin_anmat/index.asp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/argentina.jpg">                        </div>                        <div class="inner">  <h5> 制剂处方*阿根廷</h5>                        </div>                    </div>                </a>
+ <a href="https://www.vidal.ru/drugs/products  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/vidal.png">                        </div>                        <div class="inner">  <h5> Vidal处方组成</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/excipients  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/辅料.png">                        </div>                        <div class="inner">  <h5> 辅料手册*查询</h5>                        </div>                    </div>                </a>
+ <a href="https://health.mail.ru  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/httpshealthmailru.png">                        </div>                        <div class="inner">  <h5> 药品信息*俄文</h5>                        </div>                    </div>                </a>
+ <a href="http://www.jpec.gr.jp/detail=normal&ampdate=safetydata/data.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-21_13-46-46.png">                        </div>                        <div class="inner">  <h5> 辅料安全数据*日本g</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/iig/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/inactivefda.png">                        </div>                        <div class="inner">  <h5> FDA辅料数据</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000198369.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_17-12-01.png">                        </div>                        <div class="inner">  <h5> 日本辅料标准</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cde.org.cn/yfb.do?method=main  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/inactivenmpa.png">                        </div>                        <div class="inner">  <h5> 原辅包信息查询</h5>                        </div>                    </div>                </a>
+ <a href="http://dissolutiontech.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Dissolution.png">                        </div>                        <div class="inner">  <h5> Dissolution Technologies</h5>                        </div>                    </div>                </a>
+
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药物分析</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://ypsm.yzsbh.com//drugs-home?&ampshow_navbar=true "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/images-4.png">                        </div>                        <div class="inner">  <h5> 药品说明书</h5>                        </div>                    </div>                </a>
+ <a href="https://www.medicines.org.uk/emc  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/emc.jpg">                        </div>                        <div class="inner">  <h5> 欧洲说明书*EMC</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drugfuture.com/toxic  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/brici.png">                        </div>                        <div class="inner">  <h5> 物质毒性数据*Drugfuture</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cde.org.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cderc.jpg">                        </div>                        <div class="inner">  <h5> CDE溶出数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://mri.cts-mrp.eu/portal/search/fulltext  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/HMA.png">                        </div>                        <div class="inner">  <h5> 欧洲说明书*HMA</h5>                        </div>                    </div>                </a>
+ <a href="https://www.toxinfo.io  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/tox.png">                        </div>                        <div class="inner">  <h5> Toxinfo*毒性数据</h5>                        </div>                    </div>                </a>
+ <a href="https://pubchem.ncbi.nlm.nih.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pubchem.jpg">                        </div>                        <div class="inner">  <h5> PubChem化学</h5>                        </div>                    </div>                </a>
+ <a href="https://ypsm.yzsbh.com//drugs-home?&ampshow_navbar=true "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-11-26_13-39-38.jpg">                        </div>                        <div class="inner">  <h5> 药品说明书</h5>                        </div>                    </div>                </a>
+ <a href="https://products.mhra.gov.uk  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/mhra.png">                        </div>                        <div class="inner">  <h5> 英国说明书*MHRA</h5>                        </div>                    </div>                </a>
+ <a href="https://dailymed.nlm.nih.gov/dailymed/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/dailymed.png">                        </div>                        <div class="inner">  <h5> Dailymed美国说明</h5>                        </div>                    </div>                </a>
+ <a href="https://cima.aemps.es/cima/publico/home.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-09-04_13-10-41.png">                        </div>                        <div class="inner">  <h5> 西班牙说明书*AEMPS</h5>                        </div>                    </div>                </a>
+ <a href="https://chem.nlm.nih.gov/chemidplus/chemidlite.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/CHEMIDplus.jpg">                        </div>                        <div class="inner">  <h5> ChemiDplus</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/yzxpj/listpage/2eabd605a7e7ab135518fdf4d04fc51e  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/can.png">                        </div>                        <div class="inner">  <h5> CDE参比发布</h5>                        </div>                    </div>                </a>
+ <a href="http://icsc.brici.ac.cn/index_zonghe_duxing.asp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-24_12-37-38.jpg">                        </div>                        <div class="inner">  <h5> 化学毒性数据*CN</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/dissolution/dsp_getallData.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/fdarc.jpg">                        </div>                        <div class="inner">  <h5> FDA溶出方法数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://www.usp.org/resources/dissolution-methods-database  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/usp.jpg">                        </div>                        <div class="inner">  <h5> USP溶出方法数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://crs.edqm.eu  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/edqmkd.jpg">                        </div>                        <div class="inner">  <h5> 标准物质*EP</h5>                        </div>                    </div>                </a>
+ <a href="https://dra4.nihs.go.jp/mhlw_data/jsp/SearchPage.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/small-ginc.gif">                        </div>                        <div class="inner">  <h5> 化学毒性数据*日本</h5>                        </div>                    </div>                </a>
+ <a href="https://extranet.edqm.eu/publications/recherches_sw.shtml  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/edqmkd.jpg">                        </div>                        <div class="inner">  <h5> EDQM分析方法</h5>                        </div>                    </div>                </a>
+ <a href="https://carcdb.lhasalimited.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_21-57-58.png">                        </div>                        <div class="inner">  <h5> LCDB致癌性数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pmda.go.jp/PmdaSearch/iyakuSearch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pmda.jpg">                        </div>                        <div class="inner">  <h5> 日本说明书*PMDA</h5>                        </div>                    </div>                </a>
+ <a href="https://ntpsearch.niehs.nih.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_22-44-03.png">                        </div>                        <div class="inner">  <h5> NTP*毒性数据</h5>                        </div>                    </div>                </a>
+ <a href="http://tlcstandards.com/ProductsRS.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/72a08-www.tlcstandards.com.png">                        </div>                        <div class="inner">  <h5> TLC标准品</h5>                        </div>                    </div>                </a>
+ <a href="https://compendium.ch  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/images.jpg">                        </div>                        <div class="inner">  <h5> Compendium</h5>                        </div>                    </div>                </a>
+ <a href="https://database.japic.or.jp/is/sp/pins/top.jsp?targetDB=1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Japic.png">                        </div>                        <div class="inner">  <h5> 日本说明书*Japic</h5>                        </div>                    </div>                </a>
+ <a href="https://tera.org/sseus/iternew/iterdis.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-31_12-31-33.png">                        </div>                        <div class="inner">  <h5> TERA*毒性数据</h5>                        </div>                    </div>                </a>
+ <a href="https://wwwn.cdc.gov/TSP/substances/SubstanceAZ.aspx?SST=C1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ATSDR.jpg">                        </div>                        <div class="inner">  <h5> 有毒物质(详情)</h5>                        </div>                    </div>                </a>
+ <a href="http://aoc.nifdc.org.cn/sell/home/search.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/nifdc.jpg">                        </div>                        <div class="inner">  <h5> 国家标准物质*中检院</h5>                        </div>                    </div>                </a>
+ <a href="https://drugs.dxy.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugsdxy.jpg">                        </div>                        <div class="inner">  <h5> 丁香用药助手</h5>                        </div>                    </div>                </a>
+ <a href="https://store.usp.org/all-therapeutic-areas/category/USP-2400  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/usp.jpg">                        </div>                        <div class="inner">  <h5> 药物杂质*USP</h5>                        </div>                    </div>                </a>
+ 
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药物临床</span></h2>
+            <div class="clear col-3">
+            
+ <a href="http://www.chictr.org.cn/searchproj.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-05_20-56-34.jpg">                        </div>                        <div class="inner">  <h5> 中国临床ChiCTR</h5>                        </div>                    </div>                </a>
+ <a href="https://www.clinicaltrials.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/clinicaltrials.jpg">                        </div>                        <div class="inner">  <h5> 美国临床ClinicalTrials</h5>                        </div>                    </div>                </a>
+ <a href="http://www.chinadrugtrials.org.cn/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 临床平台*CTR</h5>                        </div>                    </div>                </a>
+ <a href="https://rctportal.niph.go.jp/en  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-05_21-15-41.jpg">                        </div>                        <div class="inner">  <h5> 日本临床NIPH</h5>                        </div>                    </div>                </a>
+ <a href="https://www.clinicaltrials.jp/cti-user/trial/Search.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-30_21-46-47.png">                        </div>                        <div class="inner">  <h5> 日本临床JapicCTI</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cde.org.cn/main/xxgk/listpage/4b5255eb0a84820cef4ca3e8b6bbe20c  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> CDE临床默示查询</h5>                        </div>                    </div>                </a>
+ <a href="https://jrct.niph.go.jp/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/临床.png">                        </div>                        <div class="inner">  <h5> 日本临床*JRCT</h5>                        </div>                    </div>                </a>
+ <a href="https://www.clinicaltrialsregister.eu/ctr-search/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/EudraCT.png">                        </div>                        <div class="inner">  <h5> 欧盟临床*EudraCT</h5>                        </div>                    </div>                </a>
+ <a href="https://trialsearch.who.int  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-05_21-10-09.jpg">                        </div>                        <div class="inner">  <h5> 国际临床ICTRP</h5>                        </div>                    </div>                </a>
+ <a href="https://www.anzctr.org.au/TrialSearch.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/anzctr.png">                        </div>                        <div class="inner">  <h5> 澳州-新西兰ANZCTR</h5>                        </div>                    </div>                </a>
+ <a href="https://cris.nih.go.kr/cris/index/index.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/CRIS.jpg">                        </div>                        <div class="inner">  <h5> 韩国临床</h5>                        </div>                    </div>                </a>
+ <a href="http://ctri.nic.in/Clinicaltrials/advancesearchmain.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 印度临床&CTRI</h5>                        </div>                    </div>                </a>
+ <a href="https://health-products.canada.ca/ctdb-bdec/index-eng.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/canada.jpg">                        </div>                        <div class="inner">  <h5> 加拿大临床</h5>                        </div>                    </div>                </a>
+ <a href="https://dbcentre3.jmacct.med.or.jp/jmactr/Default_Eng.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 日本临床JMACCT</h5>                        </div>                    </div>                </a>
+ <a href="https://grls.rosminzdrav.ru/CIPermitionReg.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/grls.rosminzdrav.ru.png">                        </div>                        <div class="inner">  <h5> 俄罗斯临床</h5>                        </div>                    </div>                </a>
+ <a href="https://www.accessdata.fda.gov/scripts/cder/psg/index.cfm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/BE.png">                        </div>                        <div class="inner">  <h5> FDA(药物BE指导原则)</h5>                        </div>                    </div>                </a>
+ <a href="https://www1.cde.org.tw/ct_taiwan/archive1.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/fda-tw台湾FDA.jpg">                        </div>                        <div class="inner">  <h5> 中国台湾临床</h5>                        </div>                    </div>                </a>
+ <a href="https://www.cochranelibrary.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cochranelibrary.jpg">                        </div>                        <div class="inner">  <h5> Cochrane Library循证医学</h5>                        </div>                    </div>                </a>
+ <a href="https://www.trialregister.nl/trials  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 荷兰临床</h5>                        </div>                    </div>                </a>
+ <a href="https://www.uptodate.com/contents/search  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-1.png">                        </div>                        <div class="inner">  <h5> UpToDate临床顾问</h5>                        </div>                    </div>                </a>
+ <a href="https://www.drks.de/drks_web/navigate.do?navigationId=search&ampreset=true  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 德国临床</h5>                        </div>                    </div>                </a>
+ <a href="https://upload.umin.ac.jp/cgi-open-bin/ctr_e/index.cgi?function=02  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-30_21-21-41.png">                        </div>                        <div class="inner">  <h5> 日本临床UMIN-CTR</h5>                        </div>                    </div>                </a>
+ <a href="https://nedrug.mfds.go.kr/searchClinic  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/kore.png">                        </div>                        <div class="inner">  <h5> 韩国临床*进度查询</h5>                        </div>                    </div>                </a>
+ <a href="https://beian.cfdi.org.cn/CTMDS/apps/pub/drugPublic.jsp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cde.png">                        </div>                        <div class="inner">  <h5> 中国临床机构备案</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nifdc.org.cn/nifdc/search/index.html?keywords=%E7%94%9F%E7%89%A9%E7%AD%89%E6%95%88  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/nifc.jpg">                        </div>                        <div class="inner">  <h5> BE指导原则*中检院</h5>                        </div>                    </div>                </a>
+ <a href="https://ensaiosclinicos.gov.br  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-08-22_18-39-00.png">                        </div>                        <div class="inner">  <h5> 巴西临床*ReBEC</h5>                        </div>                    </div>                </a>
+ <a href="https://www.sukl.eu/modules/evaluation  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sukl.eu_.jpg">                        </div>                        <div class="inner">  <h5> 临床查询*捷克</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ema.europa.eu/en/human-regulatory/research-development/scientific-guidelines/clinical-pharmacology-pharmacokinetics/product-specific-bioequivalence-guidance  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/BE.png">                        </div>                        <div class="inner">  <h5> EMA(特定药物BE原则)</h5>                        </div>                    </div>                </a>
+ <a href="https://www.guidetoimmunopharmacology.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/guidetoimmunopharmacology.jpg">                        </div>                        <div class="inner">  <h5> 药理学指南数据库</h5>                        </div>                    </div>                </a>
+ <a href="https://www.irct.ir "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> IRCT*伊朗临床</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>中医中药</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://gb.tcm.cnki.net/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zhongcaoyaozhishixitong.png">                        </div>                        <div class="inner">  <h5> 中草药知识系统</h5>                        </div>                    </div>                </a>
+ <a href="http://cintmed.cintcm.com/cintmed/main.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zhongyiyaoshujuku.png">                        </div>                        <div class="inner">  <h5> 中医药数据库</h5>                        </div>                    </div>                </a>
+ <a href="http://www.tcmip.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/a8d8a-www.tcmip.cn.png">                        </div>                        <div class="inner">  <h5> 中医药整合药理学数据库</h5>                        </div>                    </div>                </a>
+ 
+
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                            
+            <h2 class="chtitle"> <span>杂志期刊</span></h2>
+            <div class="clear col-3">
+            
+ <a href="http://ywfxzz.yywkt.com/Magazine/Index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ywfxzz.jpg">                        </div>                        <div class="inner">  <h5> 药物分析杂志</h5>                        </div>                    </div>                </a>
+ <a href="https://pps.cpu.edu.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pps.cpu.edu.cn.png">                        </div>                        <div class="inner">  <h5>《药学进展》</h5>                        </div>                    </div>                </a>
+ <a href="https://pzgy.chinajournal.net.cn/WKC/WebPublication/wkTextContent.aspx?colType=4&amptp=gklb  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pzgy.jpg">                        </div>                        <div class="inner">  <h5> 药剂学杂志</h5>                        </div>                    </div>                </a>
+ <a href="https://www.nature.com/nrd/articles?type=review-article  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.jpg">                        </div>                        <div class="inner">  <h5> Nature药物发现</h5>                        </div>                    </div>                </a>
+ <a href="http://journal11.magtechjournal.com/Jwk_zgyxzz/CN/volumn/current.shtml#  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zgyxzz.png">                        </div>                        <div class="inner">  <h5> 中国药学杂志</h5>                        </div>                    </div>                </a>
+ <a href="http://www.zgykdxxb.cn/jcpu/issue/browser  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/zgykdxxb.jpg">                        </div>                        <div class="inner">  <h5> 药科大学学报</h5>                        </div>                    </div>                </a>
+ <a href="https://www.tiprpress.com/ywpjyj/issue/browser  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ywpjyj.jpg">                        </div>                        <div class="inner">  <h5> 药物评价研究</h5>                        </div>                    </div>                </a>
+ <a href="https://chkdx.cnki.net/knavi/JournalDetail?pcode=CHKJ&amppykm=ZXYZ "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国新药杂志.jpg">                        </div>                        <div class="inner">  <h5> 中国新药杂志</h5>                        </div>                    </div>                </a>
+ <a href="https://syyd.cbpt.cnki.net/WKC/WebPublication/wkTextContent.aspx?colType=4&amptp=gklb&ampmid=syyd "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/沈阳药科大学学报.jpg">                        </div>                        <div class="inner">  <h5> 沈阳药科大学学报</h5>                        </div>                    </div>                </a>
+ <a href="http://bk.cnpharm.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国医药报.jpg">                        </div>                        <div class="inner">  <h5> 中国医药报</h5>                        </div>                    </div>                </a>
+ <a href="https://www.zgywjj.com/CN/article/showOldVolumn.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国药物警戒.png">                        </div>                        <div class="inner">  <h5> 中国药物警戒</h5>                        </div>                    </div>                </a>
+ <a href="http://news.yyjjb.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/news.yyjjb.com.cn.png">                        </div>                        <div class="inner">  <h5> 医药经济报</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cfdam-health.com/historyJournal.jspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.png">                        </div>                        <div class="inner">  <h5> 食品药品监管杂志</h5>                        </div>                    </div>                </a>
+ <a href="https://www.tiprpress.com/xdywlc/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/现代药物与临床.png">                        </div>                        <div class="inner">  <h5> 现代药物与临床</h5>                        </div>                    </div>                </a>
+ <a href="http://www.chinahlyy.cn/CN/article/showOldVolumn.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国合理用药探索.png">                        </div>                        <div class="inner">  <h5> 中国合理用药探索</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+               
+            <h2 class="chtitle"> <span>软件&网站</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.deepl.com/translator  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/deepl.png">                        </div>                        <div class="inner">  <h5> Deepl翻译</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ouryao.com/forum.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ouryao.jpg">                        </div>                        <div class="inner">  <h5> 蒲公英论坛</h5>                        </div>                    </div>                </a>
+ <a href="https://www.dxy.cn/bbs/newweb/pc/home  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-3.jpg">                        </div>                        <div class="inner">  <h5> 丁香园*药研</h5>                        </div>                    </div>                </a>
+ <a href="https://www.termonline.cn/index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/termonline.jpg">                        </div>                        <div class="inner">  <h5> 术语在线</h5>                        </div>                    </div>                </a>
+ <a href="http://www.onedict.com/index.php  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/onedict..png">                        </div>                        <div class="inner">  <h5> 一本词典</h5>                        </div>                    </div>                </a>
+ <a href="http://muchong.com/bbs/index.php?gid=202  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/muchong.jpg">                        </div>                        <div class="inner">  <h5> 小木虫论坛*药研</h5>                        </div>                    </div>                </a>
+ <a href="https://translate.google.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/translate.jpg">                        </div>                        <div class="inner">  <h5> 谷歌翻译</h5>                        </div>                    </div>                </a>
+ <a href="https://drughunter.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.png">                        </div>                        <div class="inner">  <h5> Drug hunter</h5>                        </div>                    </div>                </a>
+ <a href="https://fanyi.youdao.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/image.png">                        </div>                        <div class="inner">  <h5> 有道翻译</h5>                        </div>                    </div>                </a>
+ <a href="https://www.omnicalculator.com/chemistry  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/DAQejkluN4wEIIZrJf8MBB6OSW43v8BmNLwHtpUQF4AAAAASUVORK5CYII=.png">                        </div>                        <div class="inner">  <h5> Omni化学计算器</h5>                        </div>                    </div>                </a>
+ <a href="https://www.phrma.org/research-and-development/In-The-Pipeline/Medicines-in-Development  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/phrma.jpg">                        </div>                        <div class="inner">  <h5> PhRMA</h5>                        </div>                    </div>                </a>
+ <a href="https://dict.cnki.net/index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnki.png">                        </div>                        <div class="inner">  <h5> CNKI学术翻译</h5>                        </div>                    </div>                </a>
+ <a href="http://www.regulet.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/4a3e7-www.regulet.com.png">                        </div>                        <div class="inner">  <h5> 注册圈</h5>                        </div>                    </div>                </a>
+ <a href="https://www.stonewise.cn/mol_product "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/%E5%B0%8F%E5%B7%A5%E5%85%B7logo.png">                        </div>                        <div class="inner">  <h5> 结构式识别提取神器</h5>                        </div>                    </div>                </a>
+ <a href="http://pss-system.cnipa.gov.cn/sipopublicsearch/patentsearch/patentsearch/auxiliaryToolsAC!initWesternMedicinePage.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnipa.jpg">                        </div>                        <div class="inner">  <h5> 西药词典</h5>                        </div>                    </div>                </a>
+ <a href="http://www.gsxt.gov.cn/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/favicon.png">                        </div>                        <div class="inner">  <h5> 国家企信查询</h5>                        </div>                    </div>                </a>
+ <a href="http://il.las.ac.cn/course  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/c56b7-il.las.ac.cn.png">                        </div>                        <div class="inner">  <h5> 中科院科研信息课堂</h5>                        </div>                    </div>                </a>
+ <a href="http://pss-system.cnipa.gov.cn/sipopublicsearch/patentsearch/patentsearch/auxiliaryToolsAC!initChineseMedicinePage.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/cnipa.jpg">                        </div>                        <div class="inner">  <h5> 中药词典</h5>                        </div>                    </div>                </a>
+
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>医疗相关</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://fuwu.nhsa.gov.cn/nationalHallSt/#/search/pharmacies  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-01_18-30-21-1.jpg">                        </div>                        <div class="inner">  <h5> 医保药店查询</h5>                        </div>                    </div>                </a>
+ <a href="http://top100.imicams.ac.cn/university  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-02_12-06-59.jpg">                        </div>                        <div class="inner">  <h5> 医院/医学院校排行</h5>                        </div>                    </div>                </a>
+ <a href="http://bmfw.www.gov.cn/ybypmlcx/index.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_22-13-23.png">                        </div>                        <div class="inner">  <h5> 医保目录*医保局</h5>                        </div>                    </div>                </a>
+ <a href="http://www.fudanmed.com/institute/news222.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-02_12-03-57.jpg">                        </div>                        <div class="inner">  <h5> 医院排行*复旦</h5>                        </div>                    </div>                </a>
+ <a href="https://www.dayi.org.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-31_20-23-13.png">                        </div>                        <div class="inner">  <h5> 中国医药信息</h5>                        </div>                    </div>                </a>
+ <a href="https://fuwu.nhsa.gov.cn/nationalHallSt/#/search/drug-directory  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-01_18-30-21.jpg">                        </div>                        <div class="inner">  <h5> 医保目录</h5>                        </div>                    </div>                </a>
+ <a href="http://rank.cn-healthcare.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/rank.cn-healthcare.com.png">                        </div>                        <div class="inner">  <h5> 中国医院排行</h5>                        </div>                    </div>                </a>
+ <a href="https://fuwu.nhsa.gov.cn/nationalHallSt/#/search/medical  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/69072-fuwu.nhsa.gov.cn.png">                        </div>                        <div class="inner">  <h5> 医保信息查询</h5>                        </div>                    </div>                </a>
+ <a href="https://doctor.healthr.com/yiyuan  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/doctor.healthr.com.png">                        </div>                        <div class="inner">  <h5> 医院大全</h5>                        </div>                    </div>                </a>
+ <a href="http://www.satcm.gov.cn/banshifuwu  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/国家中医药管理局.png">                        </div>                        <div class="inner">  <h5> 中医专科专家查询</h5>                        </div>                    </div>                </a>
+ <a href="https://fuwu.nhsa.gov.cn/nationalHallSt/#/search/medical  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-01_18-30-21.jpg">                        </div>                        <div class="inner">  <h5> 医保医院查询</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药品销售数据</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://druganalyst.com/druglist.aspx  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/druganalyst.jpg">                        </div>                        <div class="inner">  <h5> DrugAnalyst药品销量</h5>                        </div>                    </div>                </a>
+ <a href="https://www.315jiage.cn "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/315jiage.jpg">                        </div>                        <div class="inner">  <h5> 药品价格*国内</h5>                        </div>                    </div>                </a>
+ <a href="https://www.goodrx.com "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/goodrx.jpg">                        </div>                        <div class="inner">  <h5> 药品价格查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000078916.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_17-12-01.png">                        </div>                        <div class="inner">  <h5> 医保药格*日本NHI</h5>                        </div>                    </div>                </a>
+ <a href="http://www.smpaa.cn/gzfw/index.shtml  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_13-22-06.png">                        </div>                        <div class="inner">  <h5> 上海阳光采购</h5>                        </div>                    </div>                </a>
+ <a href="https://www.yzsbh.com/Interactions/HisInquiry/MedicalPrice?medicalPriceTypeId=1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/88c8f-www.yzsbh.com.png">                        </div>                        <div class="inner">  <h5> 药价查询*苏北医院</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmacychecker.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmacychecker.png">                        </div>                        <div class="inner">  <h5> "Pharmacychecker查药价,"</h5>                        </div>                    </div>                </a>
+ <a href="https://www.yao123.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.png">                        </div>                        <div class="inner">  <h5> 国药网*国药集团</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pkufh.com/Interactions/HisInquiry/MedicalPrice?medicalPriceTypeId=1  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_13-23-02.png">                        </div>                        <div class="inner">  <h5> 北大第一医院*药价</h5>                        </div>                    </div>                </a>
+ <a href="http://www.yjsds.com/drugvolumepurchase/index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/yjsds.jpg">                        </div>                        <div class="inner">  <h5> 药交网</h5>                        </div>                    </div>                </a>
+ <a href="http://ggzyjyzx.shandong.gov.cn/yxpt/toYpxxpxy.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_22-35-09.png">                        </div>                        <div class="inner">  <h5> 药价信息*山东</h5>                        </div>                    </div>                </a>
+ <a href="http://www.emed.cc  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/emed.jpg">                        </div>                        <div class="inner">  <h5> 华招医药</h5>                        </div>                    </div>                </a>
+ <a href="https://data.cms.gov  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/data.cms.gov.png">                        </div>                        <div class="inner">  <h5> 美国CMS药品数据心</h5>                        </div>                    </div>                </a>
+ <a href="http://www.hzqx.cc "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/emed.jpg">                        </div>                        <div class="inner">  <h5> 华招器械</h5>                        </div>                    </div>                </a>
+ <a href="https://www.sec.gov/edgar/searchedgar/companysearch.html  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/sec.png">                        </div>                        <div class="inner">  <h5> SEC*年报查询</h5>                        </div>                    </div>                </a>
+ <a href="https://www.baiji.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/baiji.png">                        </div>                        <div class="inner">  <h5> 康德乐药房*上药集团</h5>                        </div>                    </div>                </a>
+ <a href="http://61.243.4.129:8001/Home/PriceYP  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-07-25_22-36-43.png">                        </div>                        <div class="inner">  <h5> 药价查询*贵州</h5>                        </div>                    </div>                </a>
+ <a href="http://www.cninfo.com.cn/new/index  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/巨潮资讯.png">                        </div>                        <div class="inner">  <h5> 沪深*年报</h5>                        </div>                    </div>                </a>
+ <a href="https://pharmeasy.in  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/e6d0c-pharmeasy.in.png">                        </div>                        <div class="inner">  <h5> PharmEasy*印度药价</h5>                        </div>                    </div>                </a>
+ <a href="https://dpw.doh.gov.ph  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/6757a-dpw.doh.gov.ph.png">                        </div>                        <div class="inner">  <h5> 菲律宾*药价</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>优质导航</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.ioe8.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/logo-collapsed2x.png">                        </div>                        <div class="inner">  <h5> 智慧阳光*药研</h5>                        </div>                    </div>                </a>
+ <a href="http://caiyajun.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/caiyajun-菜芽导航.png">                        </div>                        <div class="inner">  <h5> 菜芽导航</h5>                        </div>                    </div>                </a>
+ <a href="https://site.sciping.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/ketaxueshu.jpg">                        </div>                        <div class="inner">  <h5> 科塔学术</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ixsdh.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/微信图片_20210812171012.png">                        </div>                        <div class="inner">  <h5> 爱学术导航</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>数据库导航</span></h2>
+            <div class="clear col-3">
+            
+ <a href="http://lib.cpu.edu.cn/1154/list.htm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-1.jpg">                        </div>                        <div class="inner">  <h5> 中国药科数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://www.ebi.ac.uk/chembl  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/chembl.jpg">                        </div>                        <div class="inner">  <h5> Chembl靶点</h5>                        </div>                    </div>                </a>
+ <a href="http://210.32.137.90  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-3.png">                        </div>                        <div class="inner">  <h5> 浙大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="http://www.genecards.org  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/Snipaste_2021-09-12_15-10-14.jpg">                        </div>                        <div class="inner">  <h5> GeneCards</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmapendium.com  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/PharmaPendium.jpg">                        </div>                        <div class="inner">  <h5> PharmaPendium</h5>                        </div>                    </div>                </a>
+ <a href="http://nav.lib.tsinghua.edu.cn/xport/dbdh.htm  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.jpg">                        </div>                        <div class="inner">  <h5> 清华数据库导</h5>                        </div>                    </div>                </a>
+ <a href="http://guidetopharmacology.org "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/guidetopharmacology.jpg">                        </div>                        <div class="inner">  <h5> 药理指南数据</h5>                        </div>                    </div>                </a>
+ <a href="http://202.120.227.56:8331/V?func=find-db-1-lcl  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download.png">                        </div>                        <div class="inner">  <h5> 复旦数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://www.lib.whu.edu.cn/web/dzzy/index.asp  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-2.png">                        </div>                        <div class="inner">  <h5> 武大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="http://lib.lzu.edu.cn/databasenav.shtml?dataType=wwsjk  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/兰州大学校徽.png">                        </div>                        <div class="inner">  <h5> 兰大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://libproxy.ruc.edu.cn/ermsClient/browse.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/中国人民大学.png">                        </div>                        <div class="inner">  <h5> 人大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://eds.tju.edu.cn/ermsClient/browse.do  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/download-1.png">                        </div>                        <div class="inner">  <h5> 天大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://ic.simm.ac.cn/simmic/resource/db  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/simm.jpg">                        </div>                        <div class="inner">  <h5> 上海药所导航</h5>                        </div>                    </div>                </a>
+ <a href="https://dbnav.lib.pku.edu.cn "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pku.png">                        </div>                        <div class="inner">  <h5> 北大数据库导航</h5>                        </div>                    </div>                </a>
+ <a href="https://drugx.cn/sites/4503.html "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.cn.png">                        </div>                        <div class="inner">  <h5> 国内外公共图书馆</h5>                        </div>                    </div>                </a>
+ <a href="https://drugx.cn/sites/4501.html "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.cn.png">                        </div>                        <div class="inner">  <h5> 国内高校图书馆导航</h5>                        </div>                    </div>                </a>
+ <a href="https://drugx.cn/sites/4502.html "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/drugx.cn.png">                        </div>                        <div class="inner">  <h5> 国外高校图书馆</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>药研资讯</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.wuxuwang.com/zixun  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/wuxuwang.jpg">                        </div>                        <div class="inner">  <h5> 戊戌*资讯</h5>                        </div>                    </div>                </a>
+ <a href="https://source.bydrug.com/report  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/6c3c9-source.bydrug.com.png">                        </div>                        <div class="inner">  <h5> 药研资料-医药魔方</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmcube.com/index/news/index?type=最新文章  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharmcube.jpg">                        </div>                        <div class="inner">  <h5> 魔方*行业快讯</h5>                        </div>                    </div>                </a>
+ <a href="https://data.pharmacodia.com/pharmnews?tab=2#/main/pharmnews  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/b13bf-data.pharmacodia.com.png">                        </div>                        <div class="inner">  <h5> 世界药闻*药渡</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharmadj.com/search_list.htm?condition.tagId=01735f86202811e89dcf16e848b099f0  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/35d9c-www.pharmadj.com.png">                        </div>                        <div class="inner">  <h5> 研发客*新闻中心</h5>                        </div>                    </div>                </a>
+ <a href="http://lib.shilinx.com/news/categorylist  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/9147f-lib.shilinx.com.png">                        </div>                        <div class="inner">  <h5> 识林*资讯动态</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pharnexcloud.com/zixun  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/pharnexcloud.png">                        </div>                        <div class="inner">  <h5> 药融云*资讯</h5>                        </div>                    </div>                </a>
+
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+                
+            <h2 class="chtitle"> <span>中国药企官网</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.pfizer.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/8fdb0-www.pfizer.com.cn.png">                        </div>                        <div class="inner">  <h5>   辉瑞*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.jnj.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/55a5d-www.jnj.com.cn.png">                        </div>                        <div class="inner">  <h5>   强生*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.takeda.com/zh-cn/who-we-are/takeda-china  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/d2bc4-www.takeda.com.png">                        </div>                        <div class="inner">  <h5>   武田-Takeda</h5>                        </div>                    </div>                </a>
+ <a href="https://www.merckgroup.com.cn/cn-zh  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.merckgroup.com.cn.png">                        </div>                        <div class="inner">  <h5>   默克*中国东</h5>                        </div>                    </div>                </a>
+ <a href="https://careers.roche.com/cn/zh/china  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/careers.roche.com.png">                        </div>                        <div class="inner">  <h5>   罗氏*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bms.com/cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/23ff9-www.bms.com.png">                        </div>                        <div class="inner">  <h5>   百时美施贵宝</h5>                        </div>                    </div>                </a>
+ <a href="https://www.novartis.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.novartis.com.cn.png">                        </div>                        <div class="inner">  <h5>   诺华*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.astrazeneca.com.cn/zh  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.astrazeneca.com.cn.png">                        </div>                        <div class="inner">  <h5>   阿斯利阿康*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.abbvie.com.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.abbvie.com.cn.png">                        </div>                        <div class="inner">  <h5>   艾伯维*中国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gileadchina.cn  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.gileadchina.cn.png">                        </div>                        <div class="inner">  <h5>   吉利德*中国</h5>                        </div>                    </div>                </a>
+ 
+   
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    
+         
+            <h2 class="chtitle"> <span>美国药企官网</span></h2>
+            <div class="clear col-3">
+            
+ <a href="https://www.merck.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.merck.com.png">                        </div>                        <div class="inner">  <h5>   默克</h5>                        </div>                    </div>                </a>
+ <a href="https://www.novartis.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.novartis.com.png">                        </div>                        <div class="inner">  <h5>   诺华*美国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.pfizer.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.pfizer.com.png">                        </div>                        <div class="inner">  <h5>   辉瑞*美国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.abbvie.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.abbvie.com.png">                        </div>                        <div class="inner">  <h5>   艾伯维*美国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.bms.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/78882-www.bms.com.png">                        </div>                        <div class="inner">  <h5>   Bristol Myers Squibb-百时美施贵宝</h5>                        </div>                    </div>                </a>
+ <a href="https://www.astrazeneca.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.astrazeneca.com.png">                        </div>                        <div class="inner">  <h5>   阿斯利康*全球</h5>                        </div>                    </div>                </a>
+ <a href="https://www.jnj.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/55a5d-www.jnj.com.cn.png">                        </div>                        <div class="inner">  <h5>   Johnson</h5>                        </div>                    </div>                </a>
+ <a href="https://www.roche.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.roche.com.png">                        </div>                        <div class="inner">  <h5>   罗氏*美国</h5>                        </div>                    </div>                </a>
+ <a href="https://www.gilead.com/  "target="_blank">       <div class="item">                         <div class="avatar"> <img src="images/www.gilead.com.png">                        </div>                        <div class="inner">  <h5>   吉利德*美国</h5>                        </div>                    </div>                </a>
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    
+         
+            <h2 class="chtitle"> <span>日本药企官网</span></h2>
+            <div class="clear col-3">
+            
+<a href="https: "target="_blank">       <div class="item">                         <div class="avatar"> <img src="https:">                        </div>                        <div class="inner">  <h5>日本</h5>                        </div>                    </div>                </a>
+
+
+                     </div>
+
+
+                      <!--底部波浪-->
+                      <div id="hans-bolang"></div>
+                      <script src="https://api.vvhan.com/api/bolang"></script>
+
+                      <!--网站运行时间-->
+                      <script>
+                        function secondToDate(second) {
+                          if (!second) {
+                            return 0;
+                          }
+                          var time = new Array(0, 0, 0, 0, 0);
+                          if (second >= 365 * 24 * 3600) {
+                            time[0] = parseInt(second / (365 * 24 * 3600));
+                            second %= 365 * 24 * 3600;
+                          }
+                          if (second >= 24 * 3600) {
+                            time[1] = parseInt(second / (24 * 3600));
+                            second %= 24 * 3600;
+                          }
+                          if (second >= 3600) {
+                            time[2] = parseInt(second / 3600);
+                            second %= 3600;
+                          }
+                          if (second >= 60) {
+                            time[3] = parseInt(second / 60);
+                            second %= 60;
+                          }
+                          if (second > 0) {
+                            time[4] = second;
+                          }
+                          return time;
+                        }</script>
+                      <script type="text/javascript" language="javascript">
+                        function setTime() {
+                          var create_time = Math.round(new Date(Date.UTC(2023, 02, 02, 6, 6, 6)).getTime() / 1000);
+                          var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+                          currentTime = secondToDate((timestamp - create_time));
+                          currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
+                            + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+                            + '秒';
+                          document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+                        } setInterval(setTime, 1000);</script>
+
+
+
+
+                      <div class="footer ch">
+                        <div class="container">
+                          <h4>© 2023 Powered by Blue</h4>
+
+                          <div class="footer ch">
+                            <div class="container">
+                              <h4>星辰大海,不负遇见 © Blue的自留地</h4>
+
+                              <br>
+                              <h4>本网站已经稳定运行：<span id="htmer_time" style="color: red;"></span>
+                              </h4>
+
+
+
+                            </div>
+                          </div>
+                        </div>
+                        <!--随机文字信息在\js\page.3a0791a3.js中修改-->
+                        <script src="js/page.3a0791a3.js"></script>
+                        <script type="text/javascript" src="js/stats.js" charset="UTF-8"></script>
+
+                        <audio autoplay>
+                          <source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+                        </audio>
+
+
+                        <!--<p>上方复制弹出</p>-->
+                        </p>
+                        <!script src="js/page.3a0791a3.js">
+                          </script>
+                          <!--以下为点击复制调用js-->
+                          <script src="js/jquery.min.js"></script>
+                          <script src="js/clipboard.min.js"></script>
+                          <script>
+                            $('.copy-btn').click(function () {
+                              let id = $(this).attr('id')
+                              copy('#' + id)
+                            })
+                            function copy(id) {
+                              let clipboard = new ClipboardJS(id);
+                              clipboard.on('success', function (e) {
+                                console.log(e);
+                                alert('复制成功，请前往软件设置里粘贴接口')
+                                clipboard.destroy();//解决多次弹窗问题
+                              });
+                              clipboard.on('error', function (e) {
+                                console.log(e);
+                                alert('请重新复制')
+                                clipboard.destroy();//解决多次弹窗问题
+                              });
+                            }
+                          </script>
+
+                          <!--雪花API-->
+                          <script src="https://api.vvhan.com/api/snow"></script>
+                          <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+
+                          <!-- 音乐代码 -->
+                          <!script src="https://myhkw.cn/api/player/1671122654160" id="myhk" key="1671122654160" m="1">
+                            </script>
+
+                            <!--播放器-->
+                            <!--播放器-->
+                            <script id="myhk" src="https://myhkw.cn/api/player/1698460979130" key="1698460979130" m="1"></script>
+                            <div id="myhk"></div>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/lunar-javascript/1.6.5/lunar.min.js"></script>
+
+                            <!--看板娘-->
+                            <link rel="stylesheet" href="https://npm.elemecdn.com/font-awesome@4.7.0/css/font-awesome.min.css">
+                            <script src="https://npm.elemecdn.com/live2dnew@1.0.1/live2dnew/left/index.js"></script>
+                            <style type="text/css">
+                              #waifu #live2d {
+                                height: 330px !important;
+                                width: 330px !important;
+                              }
+                            </style>
+                            <script>
+                              localStorage.setItem('modelId', '20');
+                              localStorage.setItem('modelTexturesId', '2');
+                            </script>
+                            <div id="chakra-toast-portal">
+                              <ul id="chakra-toast-manager-top"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; margin: 0px auto; top: env(safe-area-inset-top, 0px); right: env(safe-area-inset-right, 0px); left: env(safe-area-inset-left, 0px);">
+                              </ul>
+                              <ul id="chakra-toast-manager-top-left"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; top: env(safe-area-inset-top, 0px); left: env(safe-area-inset-left, 0px);">
+                              </ul>
+                              <ul id="chakra-toast-manager-top-right"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; top: env(safe-area-inset-top, 0px); right: env(safe-area-inset-right, 0px);">
+                              </ul>
+                              <ul id="chakra-toast-manager-bottom-left"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; bottom: env(safe-area-inset-bottom, 0px); left: env(safe-area-inset-left, 0px);">
+                              </ul>
+                              <ul id="chakra-toast-manager-bottom"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; margin: 0px auto; bottom: env(safe-area-inset-bottom, 0px); right: env(safe-area-inset-right, 0px); left: env(safe-area-inset-left, 0px);">
+                              </ul>
+                              <ul id="chakra-toast-manager-bottom-right"
+                                style="position: fixed; z-index: 5500; pointer-events: none; display: flex; flex-direction: column; bottom: env(safe-area-inset-bottom, 0px); right: env(safe-area-inset-right, 0px);">
+                              </ul>
+                            </div>
+
+</body>
+
+</html>
